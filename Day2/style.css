@@ -1,0 +1,71 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00adb5;
+}
+
+/* Main Content */
+.main-content {
+    padding: 50px 20px;
+}
+
+.main-content h2 {
+    margin-bottom: 15px;
+}
+
+.main-content button {
+    padding: 10px 20px;
+    background-color: #00adb5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main-content button:hover {
+    background-color: #007b80;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    margin-top: 30px;
+}
