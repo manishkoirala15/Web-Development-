@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration form</title>
+        <link rel="stylesheet" href="lab2.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Student Registration Form</h1>
+            <p class="subtitle">Web Technology Lab Exercise</p>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+        
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your full name">
+        
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email">
+        
+                    <label>Phone Number</label>
+                    <input type="text" placeholder="98XXXXXXXX">
+        
+                    <label>Gender</label>
+                    <div class="gender">
+                        <input type="radio" name="gender"> Male
+                        <input type="radio" name="gender"> Female
+                        <input type="radio" name="gender"> Other
+                    </div>
+                      
+                </fieldset>
+                <fieldset>
+                    <legend>Academic Information</legend>
+        
+                    <label>Faculty</label>
+                    <select>
+                        <option>Select Faculty</option>
+                        <option>BE Software</option>
+                        <option>BCA</option>
+                        <option>BIT</option>
+                    </select>
+        
+                    <label>Semester</label>
+                    <select>
+                        <option>Select Semester</option>
+                        <option>1st</option>
+                        <option>2nd</option>
+                        <option>3rd</option>
+                        <option>4th</option>
+                    </select>
+        
+                </fieldset>
+                <fieldset>
+                    <legend>Skills</legend>
+        
+                    <div class="skills">
+                        <input type="checkbox"> HTML
+                        <input type="checkbox"> CSS
+                        <input type="checkbox"> JavaScript
+                        <input type="checkbox"> PHP
+                    </div>
+        
+                </fieldset>
+                <fieldset>
+                    <legend>Address</legend>
+        
+                    <label>Address</label>
+                    <textarea rows="5" placeholder="Enter your address"></textarea>
+        
+                </fieldset>
+                <fieldset>
+                    <button type="submit">Regiter</button>
+                </fieldset>
+                <h2>Registered Students</h2>
+
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Faculty</th>
+                        <th>Semester</th>
+                    </tr>
+            
+                    <tr>
+                        <td>Ram Sharma</td>
+                        <td>BE Software</td>
+                        <td>4th</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Sita Karki</td>
+                        <td>BCA</td>
+                        <td>2nd</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Hari Gautam</td>
+                        <td>BIT</td>
+                        <td>1st</td>
+                    </tr>
+            
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
